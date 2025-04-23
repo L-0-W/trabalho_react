@@ -69,3 +69,9 @@ O projeto é estruturado em componentes React, incluindo:
 * A aplicação implementa um sistema de notificações para manter os usuários informados sobre novas reviews de usuários que eles seguem.  
 * O design é responsivo, garantindo uma boa experiência em diferentes dispositivos.  
 * O projeto inclui funcionalidades como avaliação de itens, criação de listas de favoritos e perfis de usuário, promovendo a interação e o engajamento da comunidade.
+
+---
+
+``git clone https://github.com/L-0-W/trabalho_react.git``
+``cd trabalho_react``
+``npm install && npm run dev``
