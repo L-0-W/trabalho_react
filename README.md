@@ -1,12 +1,71 @@
-# React + Vite
+# **Biblioteca Virtual \- Leiturinha**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## **Descrição do Projeto**
 
-Currently, two official plugins are available:
+O projeto "Biblioteca Virtual" é uma aplicação web desenvolvida como um "Letterbox" para livros e outras formas de mídia, como filmes. Ele permite aos usuários descobrir, revisar e interagir com um catálogo de itens, com funcionalidades de avaliação, criação de listas de favoritos e acompanhamento de outros usuários.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## **Funcionalidades Principais**
 
-## Expanding the ESLint configuration
+* **Navegação e Descoberta:**  
+  * Página inicial com destaques de itens populares e reviews recentes.  
+  * Busca de itens (livros, filmes) com filtragem por título, autor e gênero.  
+  * Página de detalhes do item, incluindo descrição, informações de disponibilidade e reviews.  
+  * Listagem de itens semelhantes.  
+* **Interação do Usuário:**  
+  * Sistema de avaliação de itens com estrelas.  
+  * Criação e gerenciamento de reviews, incluindo likes.  
+  * Listas de favoritos para salvar itens.  
+  * Perfis de usuário com informações e estatísticas.  
+  * Sistema de seguidores para acompanhar as atividades de outros usuários.  
+  * Notificações para informar sobre novas reviews de usuários seguidos.  
+* **Recursos Adicionais:**  
+  * Links para ler online ou baixar itens, quando disponíveis.  
+  * Design responsivo com sidebar para navegação em dispositivos móveis.  
+  * Popup de informações do usuário.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## **Ferramentas e Tecnologias Utilizadas**
+
+* **Frontend:**  
+  * React  
+  * Styled Components  
+  * React Router  
+  * HTML5  
+  * CSS3  
+  * JavaScript (ES6+)  
+* **APIs:**  
+  * Google Books API (para buscar informações sobre livros)  
+* **Outros**  
+  * Tailwind
+
+## **Participantes**
+
+* Cassiano Socorro  
+* Daniel  
+* Caio Braga  
+* Luiz Felipe  
+* João Luiz  
+* Arthur Varizi
+
+## **Estrutura do Projeto**
+
+O projeto é estruturado em componentes React, incluindo:
+
+* App: Componente principal que configura a aplicação, o roteamento e o estado global.  
+* HomePage: Exibe a página inicial com itens populares e reviews recentes.  
+* DetailsPage: Mostra os detalhes de um item específico.  
+* ProfilePage: Exibe o perfil de um usuário.  
+* FavoritesPage: Exibe os itens favoritados pelo usuário.  
+* ReviewCard: Componente para exibir uma review de um item.  
+* ItemCard: Componente para exibir um card de item.  
+* Sidebar: Componente para a barra de navegação lateral.  
+* UserInfoPopup: Componente para exibir informações detalhadas do usuário.  
+* NotificationItem: Componente para exibir uma notificação.  
+* UserSearchResultCard: Componente para exibir resultados da pesquisa de usuários.  
+* ItemSearchResult: Componente para exibir resultados da pesquisa de itens.
+
+## **Observações**
+
+* O projeto utiliza o Google Books API para buscar informações sobre livros, o que enriquece o catálogo de itens disponíveis na plataforma.  
+* A aplicação implementa um sistema de notificações para manter os usuários informados sobre novas reviews de usuários que eles seguem.  
+* O design é responsivo, garantindo uma boa experiência em diferentes dispositivos.  
+* O projeto inclui funcionalidades como avaliação de itens, criação de listas de favoritos e perfis de usuário, promovendo a interação e o engajamento da comunidade.
