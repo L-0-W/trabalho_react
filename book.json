@@ -1,0 +1,219 @@
+[
+    {
+      "id": "1",
+      "type": "book",
+      "title": "React para Iniciantes",
+      "img": "https://placehold.co/200x300/7c3aed/white?text=React",
+      "details": {
+        "author": "João Silva",
+        "pages": 250,
+        "description": "Um guia completo para começar com React. Cobre hooks, context API e mais.",
+        "genres": ["Programação", "Web"],
+        "averageRating": 4.5,
+        "ratingsCount": 125,
+        "year": 2022,
+        "publisher": "Tech Books",
+        "availability": {
+          "onlineStoreUrl": "#",
+          "libraryUrl": "#",
+          "downloadUrl": null
+        },
+        "similarBooks": ["3", "6"]
+      },
+      "popular": true,
+      "Review": [
+        {
+          "userId": "user2",
+          "user": "Ana",
+          "rating": 5,
+          "text": "Muito didático!",
+          "review_likes": 5,
+          "review_data": "2025-04-05" 
+        },
+        {
+          "userId": "user1",
+          "user": "Pedro",
+          "rating": 2,
+          "text": "Podi!",
+          "review_likes": 10,
+          "review_data": "2025-04-02" 
+       }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "movie",
+      "title": "A Rede Social",
+      "img": "https://placehold.co/200x300/db2777/white?text=Filme",
+      "details": {
+        "director": "David Fincher",
+        "year": 2010,
+        "description": "A história da criação do Facebook.",
+        "genres": ["Drama", "Biografia"],
+        "averageRating": 4.8,
+        "ratingsCount": 550,
+        "availability": {
+          "onlineStoreUrl": "#",
+          "libraryUrl": null,
+          "downloadUrl": "#"
+        },
+        "similarBooks": ["7"]
+      },
+      "popular": true,
+      "recentReview": null
+    },
+    {
+      "id": "3",
+      "type": "book",
+      "title": "Styled Components Essencial",
+      "img": "https://placehold.co/200x300/16a34a/white?text=Styled",
+      "details": {
+        "author": "Maria Souza",
+        "pages": 180,
+        "description": "Domine a estilização CSS-in-JS com exemplos práticos.",
+        "genres": ["Programação", "CSS"],
+        "averageRating": 4.2,
+        "ratingsCount": 98,
+        "year": 2021,
+        "publisher": "Web Style",
+        "availability": {
+          "onlineStoreUrl": "#",
+          "libraryUrl": "#",
+          "downloadUrl": "#"
+        },
+        "similarBooks": ["1", "6"]
+      },
+      "popular": true,
+      "recentReview": {
+        "userId": "user3",
+        "user": "Carlos",
+        "rating": 4,
+        "text": "Gostei, mas faltou exemplos avançados."
+      }
+    },
+    {
+      "id": "4",
+      "type": "series",
+      "title": "Silicon Valley",
+      "img": "https://placehold.co/200x300/0ea5e9/white?text=Serie",
+      "details": {
+        "seasons": 6,
+        "network": "HBO",
+        "description": "Comédia sobre o mundo das startups de tecnologia.",
+        "genres": ["Comédia", "Tecnologia"],
+        "averageRating": 4.9,
+        "ratingsCount": 800,
+        "year": 2014,
+        "availability": {
+          "onlineStoreUrl": null,
+          "libraryUrl": null,
+          "downloadUrl": null
+        },
+        "similarBooks": []
+      },
+      "popular": true,
+      "recentReview": null
+    },
+    {
+      "id": "5",
+      "type": "game",
+      "title": "Cyberpunk 2077",
+      "img": "https://placehold.co/200x300/facc15/black?text=Jogo",
+      "details": {
+        "developer": "CD Projekt Red",
+        "platform": "PC/Console",
+        "description": "RPG de ação em um mundo aberto futurista.",
+        "genres": ["RPG", "Ação", "Sci-Fi"],
+        "averageRating": 3.5,
+        "ratingsCount": 1500,
+        "year": 2020,
+        "availability": {
+          "onlineStoreUrl": "#",
+          "libraryUrl": null,
+          "downloadUrl": null
+        },
+        "similarBooks": ["8"]
+      },
+      "popular": true,
+      "recentReview": {
+        "userId": "user4",
+        "user": "GamerX",
+        "rating": 3,
+        "text": "Melhorou muito após os patches."
+      }
+    },
+    {
+      "id": "6",
+      "type": "book",
+      "title": "JavaScript Moderno",
+      "img": "https://placehold.co/200x300/f97316/white?text=JS",
+      "details": {
+        "author": "Carlos Pereira",
+        "pages": 400,
+        "description": "Guia completo de ES6+ e funcionalidades recentes do JavaScript.",
+        "genres": ["Programação", "Web"],
+        "averageRating": 4.6,
+        "ratingsCount": 215,
+        "year": 2023,
+        "publisher": "Code Masters",
+        "availability": {
+          "onlineStoreUrl": "#",
+          "libraryUrl": null,
+          "downloadUrl": "#"
+        },
+        "similarBooks": ["1", "3"]
+      },
+      "popular": true,
+      "recentReview": null
+    },
+    {
+      "id": "7",
+      "type": "movie",
+      "title": "Parasita",
+      "img": "https://placehold.co/200x300/10b981/white?text=Parasita",
+      "details": {
+        "director": "Bong Joon-ho",
+        "year": 2019,
+        "description": "Uma sátira social afiada.",
+        "genres": ["Suspense", "Comédia", "Drama"],
+        "averageRating": 4.9,
+        "ratingsCount": 950,
+        "availability": {
+          "onlineStoreUrl": "#",
+          "libraryUrl": "#",
+          "downloadUrl": null
+        },
+        "similarBooks": ["2"]
+      },
+      "popular": true,
+      "recentReview": {
+        "userId": "user5",
+        "user": "Cinefilo",
+        "rating": 5,
+        "text": "Obra-prima!"
+      }
+    },
+    {
+      "id": "8",
+      "type": "game",
+      "title": "The Legend of Zelda: Tears of the Kingdom",
+      "img": "https://placehold.co/200x300/22d3ee/black?text=Zelda",
+      "details": {
+        "developer": "Nintendo",
+        "platform": "Switch",
+        "description": "Aventura épica em Hyrule.",
+        "genres": ["Aventura", "RPG", "Ação"],
+        "averageRating": 4.9,
+        "ratingsCount": 1200,
+        "year": 2023,
+        "availability": {
+          "onlineStoreUrl": "#",
+          "libraryUrl": null,
+          "downloadUrl": null
+        },
+        "similarBooks": ["5"]
+      },
+      "popular": true,
+      "recentReview": null
+    }
+  ]
